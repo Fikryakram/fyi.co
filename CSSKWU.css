@@ -144,6 +144,9 @@ body {
     margin: 15px;
 }
 
+.deskrip{
+    margin: 0 15px;
+}
 .product-card .price {
     font-size: 1.1em;
     font-weight: bold;
