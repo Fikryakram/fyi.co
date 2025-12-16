@@ -1,4 +1,4 @@
-/* Pengaturan Dasar */
+/* Pengaturan Dasar *//* Pengaturan Dasar */
 :root {
     --primary-color: #007bff;
     --secondary-color: #28a745;
@@ -285,6 +285,7 @@ body {
 .contact-section {
     flex-basis: 33.33%;
     text-align: left;
+    
 }
 
 .products-section {
@@ -303,6 +304,7 @@ body {
     font-size: 1.1em;
 }
 
+
 .footer-section p {
     margin: 5px 0;
 }
@@ -315,6 +317,19 @@ body {
 
 .footer-section a:hover {
     color: rgb(27, 247, 64);
+}
+
+/* Instagram Logo Animation */
+.instagram-logo {
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+}
+
+.instagram-logo:hover {
+    transform: scale(1.2) rotate(10deg);
+    filter: brightness(1.2);
 }
 
 /* Media Query untuk HP (Contoh Responsif) */
@@ -428,3 +443,5 @@ body {
         padding: 1px 5px;
     }
 }
+
+
